@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.com.ambe.fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/size_5dp"
+        android:layout_margin="@dimen/size_5dp"
+        android:orientation="vertical"  >
+
+        <TextView
+            android:id="@+id/edit_diem_bat_dau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_5dp"
+            android:hint="@string/vi_tri_cua_toi"
+            android:padding="@dimen/size_5dp" />
+
+        <TextView
+            android:id="@+id/edit_dia_diem_ket_thuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_5dp"
+            android:layout_margin="@dimen/size_5dp"
+            android:hint="@string/dịa_diem_ket_thuc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_5dp"
+            >
+            <Button
+                android:id="@+id/btn_tim_kiem_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/size_5dp"
+                android:text="@string/chi_duong" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_distance"/>
+            <TextView
+                android:id="@+id/txt_quang_duong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/size_5dp"
+                android:text="0 km"/>
+
+            <ImageView
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:layout_marginTop="@dimen/size_5dp"
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp"
+                android:padding="@dimen/size_5dp"
+                android:src="@drawable/ic_clock"/>
+            <TextView
+                android:id="@+id/txt_thoi_gian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/size_5dp"
+                android:text="0 min"/>
+            <ImageView
+                android:id="@+id/img_mode"
+                android:layout_marginTop="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="@dimen/size_5dp"
+                android:paddingLeft="@dimen/size_5dp"
+                android:src="@drawable/walking"/>
+        </LinearLayout>
+
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

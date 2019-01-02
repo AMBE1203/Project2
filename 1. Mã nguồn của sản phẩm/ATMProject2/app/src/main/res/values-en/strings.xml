@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chon_ngan_hang">Select a bank:</string>
+    <string name="app_name">ATMProject2</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="atm">ATM</string>
+    <string name="project2_duong_the_cuong">Project2 Dương Thế Cường</string>
+    <string name="home">Home</string>
+    <string name="search">Search ATM</string>
+    <string name="setting">Setting</string>
+    <string name="vi_tri_cua_toi">My location</string>
+    <string name="dịa_diem_ket_thuc">Destination</string>
+    <string name="tim_kiem">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="kieu_hien_thi_map">Maps style</string>
+    <string name="quan">District: </string>
+    <string name="ngan_hang">Bank: </string>
+    <string name="danh_sach">Bank list </string>
+
+    <string name="none">None</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+
+    <string name="chi_duong">Find a way</string>
+    <string name="dong_y">OK</string>
+    <string name="thoat">Cancel</string>
+
+
+    <string name="day_la_dau">Where is this ?</string>
+    <string name="thanh_cong">Success!</string>
+    <string name="thong_bao">Notice! </string>
+    <string name="dang_tai">Loading data, please wait...</string>
+    <string name="loi_chua_nhap">You have not entered data yet?...</string>
+    <string name="luu_thay_doi">Do you want to save the changes?</string>
+    <string name="chon_tat_ca">Select all: </string>
+    <string name="chon_kieu_duong_di">Choose the type of path: </string>
+    <string name="luu">Save</string>
+    <string name="chua_bat_GPS">Not turned on GPS</string>
+
+    <string-array name="arrQuan">
+        <item>Ba Đình</item>
+        <item>Bắc Từ Liêm</item>
+        <item>Cầu Giấy</item>
+        <item>Đống Đa</item>
+        <item>Hà Đông</item>
+        <item>Hai Bà Trưng</item>
+        <item>Hoàn Kiếm</item>
+        <item>Hoàng Mai</item>
+        <item>Long Biên</item>
+        <item>Nam Từ Liêm</item>
+        <item>Thanh Xuân</item>
+        <item>Tây Hồ</item>
+    </string-array>
+
+    <string-array name="arrNganHang">
+        <item>Agribank</item>
+        <item>Vietinbank</item>
+        <item>Vietcombank</item>
+        <item>Sacombank</item>
+        <item>MB Bank</item>
+        <item>Techcombank</item>
+        <item>DongA Bank</item>
+        <item>VIB</item>
+        <item>ACB</item>
+    </string-array>
+    <string-array name="arrKieuDuong">
+        <item>Walking</item>
+        <item>Driving</item>
+    </string-array>
+
+
+</resources>

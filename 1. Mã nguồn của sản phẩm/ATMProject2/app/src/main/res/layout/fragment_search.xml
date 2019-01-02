@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.com.ambe.fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/size_5dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size_5dp"
+                    android:padding="@dimen/size_5dp"
+                    android:text="@string/quan"
+                    android:textSize="@dimen/size_20dp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_quan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:completionThreshold="1"
+                    android:padding="@dimen/size_5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size_5dp"
+                    android:padding="@dimen/size_5dp"
+                    android:text="@string/ngan_hang"
+                    android:textSize="@dimen/size_20dp" />
+
+               <Spinner
+                   android:id="@+id/spr_ngan_hang"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"></Spinner>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_tim_kiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5dp"
+                android:layout_weight="1"
+                android:padding="@dimen/size_5dp"
+                android:text="@string/tim_kiem" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_5dp"
+            android:padding="@dimen/size_5dp"
+            android:text="@string/danh_sach"
+            android:textSize="@dimen/size_20dp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/list_atm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

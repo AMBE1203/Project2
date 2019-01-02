@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_chi_duong"
+        android:icon="@drawable/ic_distance"
+        android:title="@string/chi_duong"></item>
+    <item
+        android:id="@+id/menu_day_la_dau"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/day_la_dau"></item>
+
+</menu>
